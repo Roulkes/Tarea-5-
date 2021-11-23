@@ -1,0 +1,66 @@
+#EJERCICIO 1
+num1 = float(input("Dame el primer valor: "))
+num2 = float(input("Dame el segundo valor: "))
+
+if num1 > num2:
+    print("El numero",num1,"es mayor que",num2)
+elif num1 < num2:
+    print("El numero",num1,"es menor que",num2) 
+elif num1 == num2:
+    print("El numnero",num1,"es igual a",num2)
+print("Fin del programa")
+
+#EJERCICIO 2
+num1 = float(input("Dame el primer valor: "))
+num2 = float(input("Dame el segundo valor: "))
+num3 = float(input("Dame el tercer valor: "))
+if num1 > num2 and num1 > num3:
+    print("El valor",num1,"es el mayor que los otros 2 valores")
+elif num2 > num1 and num2 > num3:
+    print("El valor",num2,"es el mayor que los otros 2 valores")
+elif num3 > num1 and num3 > num2:
+    print("El valor",num3,"es el mayor que los otros 2 valores")
+print("Fin del programa") 
+
+#EJERCICIO 3
+num1 = float(input("Dame el primer valor: "))
+num2 = float(input("Dame el segundo valor: "))
+num3 = float(input("Dame el tercer valor: "))
+if num1 < num2 and num1 < num3:
+    print("El valor",num1,"es el menor que los otros 2 valores")
+elif num2 < num1 and num2 < num3:
+    print("El valor",num2,"es el menor que los otros 2 valores")
+elif num3 < num1 and num3 < num2:
+    print("El valor",num3,"es el menor que los otros 2 valores")
+print("Fin del programa") 
+
+#EJERCICIO 4
+num1 = float(input("Dame el primer valor: "))
+num2 = float(input("Dame el segundo valor: "))
+num3 = float(input("Dame el tercer valor: "))
+num4 = float(input("Dame el cuarto valor: "))
+if num1 > num2 and num1 > num3 and num1 > num4:
+    print("El valor",num1,"es el mayor que los otros 3 valores")
+
+elif num2 > num1 and num2 > num3 and num2 > num4:
+    print("El valor",num2,"es el mayor que los otros 3 valores")
+
+elif num3 > num1 and num3 > num2 and num3 > num4:
+    print("El valor",num3,"es el mayor que los otros 3 valores")
+
+elif num4 > num1 and num4 > num2 and num4 > num3:
+    print("El valor",num4,"es el mayor que los otros 3 valores")
+
+if num1 < num2 and num1 < num3 and num1 < num4:
+    print("El valor",num1,"es el menor que los otros 3 valores")
+
+elif num2 < num1 and num2 < num3 and num2 < num4:
+    print("El valor",num2,"es el menor que los otros 3 valores")
+
+elif num3 < num1 and num3 < num2 and num3 < num4:
+    print("El valor",num3,"es el menor que los otros 3 valores")
+
+elif num4 < num1 and num4 < num2 and num4 < num3:
+    print("El valor",num4,"es el menor que los otros 3 valores")
+
+print("Fin del programa, have a nice day :)") 
